@@ -16,6 +16,16 @@ main {
     max-width: 800px;
 }
 
+#Nevek {
+    display: grid;
+    grid-template-columns: 100px auto;
+}
+
+#Nevel label {
+    text-align: right;
+    padding-right: 5px;
+}
+
 body {
     margin: 0;
 }
@@ -82,4 +92,13 @@ nav a:hover {
 nav ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+#Nevek {
+    font-size: 15pt;
+    grid-template-columns: auto;
+}
+
+#Nevel label {
+    text-align: left;
 }

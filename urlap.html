@@ -27,16 +27,43 @@
         </nav>
         <article>
             <form action="/action_page.php" method="post">
-                <label for="vnev">Vezetéknév:</label>
-                <input type="text" id="vnev" name="vnev"><br><br>
+                <label for="Nevek"></label>
+                    <fieldset id="Nevek">
+                    <label for="vnev">Vezetéknév:</label>
+                <input type="text" id="vnev" name="vnev">
                 
                 
-                <label for="knev">Keresztnév:</label>
-                <input type="text" id="knev" name="knev"><br><br>
+                <label for="knev">K.név:</label>
+                <input type="text" id="knev" name="knev">
+                    </fieldset>
                 
                 
+                
+              
+                    <fieldset id="Nem">
+                        <input type="radio" id="Ferfi" name="nem" value="Férfi">
+                <label for="Ferfi">Férfi</label><br>
+
+                <input type="radio" id="No" name="nem" value="No">
+                <label for="No">Nő</label><br>
+                    </fieldset>
+                
+                
+               
+
+                
+                <fieldset>
+                    <input type="radio" id="html" name="fav_language" value="HTML">
+                <label for="html">HTML</label><br>
+                <input type="radio" id="css" name="fav_language" value="CSS">
+                <label for="css">CSS</label><br>
+                <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                <label for="javascript">JavaScript</label>
+                </fieldset>
+
                 <input type="submit" value="OK">
-              </form>
+
+            </form>
         </article>
         <footer>
             Gergely Patrícia
